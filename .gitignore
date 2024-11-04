@@ -1,24 +1,14 @@
-# Compiled class file
-*.class
+.idea/
+*.iml
 
-# Log file
-*.log
+**/target/*
+**/node_modules/*
+**/.history/*
 
-# BlueJ files
-*.ctxt
+package-lock.json
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+.data
+/doc/guide/docs/.vuepress/dist/*
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+.vscode/settings.json
+/file/office
